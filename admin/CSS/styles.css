@@ -300,12 +300,15 @@ input[type='radio'], input[type='submit'], button, .conf-step__header {
 .conf-step__input {
   display: block;
   width: 100px;
+  margin-top: 1px;
   padding: 8px;
   font-size: 1.6rem;
   color: #000000;
+  border: 1px solid #b7b7b7;
 }
 .conf-step__input:focus {
-  outline-color: #CF87FF;
+  outline: 1px #CF87FF solid;
+  outline-offset: -1px;
 }
 
 .conf-step__chair {
